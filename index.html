@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap&subset=vietnamese" rel="stylesheet">     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+
+        #body {
+            height: 100%;
+            padding: 10%;
+            background-image: url("./images/bg-pattern-desktop.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 60%;
+        }
+
+        .container {
+            display: flex;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        #logo {
+            margin-bottom: 10%;
+        }
+
+        * {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .headerTxt {
+            font-size: 36pt;
+            font-weight: 600;
+        }
+
+        #we {
+            color: hsl(0, 36%, 70%);
+            font-weight: 300;
+        }
+
+        #txt {
+            color: hsl(0, 36%, 70%);
+            line-height: 1.6;
+            padding-top: 10%;
+            padding-bottom: 10%;
+        }
+
+        #content {
+            width: 70%;
+        }
+
+        #input {
+          padding-bottom: 10%;
+        }
+
+        #image {
+          padding-left: 0;
+        }
+
+        input, button {
+            border-radius: 50px;
+        }
+
+        input {
+            width: 350px;
+            border: 1px solid hsl(0, 36%, 70%);
+            color: hsl(0, 36%, 70%);
+            font-size: 16px;
+            padding-left: 20px;
+            height: 50px;
+
+        }
+
+        button {
+            width: 100px;
+            height: 50px;
+            background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+            border: 1px solid hsl(0, 36%, 70%);
+            margin-left: -50px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="body" class="col-md-8">
+        <div id="logo">
+            <img src="./images/logo.svg" alt="logo">
+        </div>
+        <div id="content">
+            <span class="headerTxt" id="we">W E ' R E</span><br>
+            <span class="headerTxt">C O M I N G</span><br>
+            <span class="headerTxt">S O O N</span>
+            <p id="txt">Hello fellow shoppers! We're currently building our new fashion store.
+                Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        </div>
+        <div id="input" class="input-group">
+            <input type="text" placeholder="Email Address">
+            <span class="input-group-btn">
+              <button type="submit"><img src="./images/icon-arrow.svg" alt="arrow"></button>
+            </span>
+        </div>
+    </div>
+    <div id="image" class="col-md">
+        <img src="./images/hero-desktop.jpg" alt="image">
+    </div>
+</div>
+<footer>
+    <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Jason Nguyen</a>.
+    </p>
+</footer>
+</body>
+</html>
